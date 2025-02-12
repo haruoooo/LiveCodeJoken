@@ -25,9 +25,9 @@ def determine_winner(user_choice, computer_choice):
         return "Empate"
     
     win_conditions = {
-        "pedra": "tesoura",  # Pedra vence Tesoura
-        "papel": "pedra",     # Papel vence Pedra
-        "tesoura": "papel"     # Tesoura vence Papel
+        "pedra": "tesoura",  
+        "papel": "pedra",     
+        "tesoura": "papel"     
     }
     
     if win_conditions[user_choice] == computer_choice:
