@@ -36,7 +36,7 @@ def determine_winner(user_choice, computer_choice):
 
 def main():
     """
-    Função principal que executa o jogo.
+    Função principal que executa o jogo. Teste teste teste
     """
     print("\nBem-vindo ao Jokenpô!")
     
